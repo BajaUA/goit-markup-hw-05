@@ -707,21 +707,19 @@ img {
 .check-text a {
   color: var(--main-brand-color);
 }
-.check-text span {
+
+.check-custom {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
   transition: background-color var(--transition), border var(--transition),
     fill var(--transition);
-}
-.check-custom {
-  display: inline-flex;
 }
 .input-check:checked + .check-text span {
   background-color: var(--menu-active-color);
