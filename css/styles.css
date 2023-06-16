@@ -720,7 +720,7 @@ img {
   transition: background-color var(--transition), border var(--transition),
     fill var(--transition);
 }
-.check-icon {
+.check-custom {
   display: inline-flex;
 }
 .input-check:checked + .check-text span {
