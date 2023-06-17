@@ -726,6 +726,13 @@ img {
   fill: var(--footer-color);
 }
 
+.check-text span {
+  transition: border var(--transition);
+}
+.input-check:focus + .check-text span {
+  border: 1px solid var(--main-brand-color);
+}
+
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
